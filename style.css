@@ -1,41 +1,43 @@
 .login-page {
-  width: 360px;
-  padding: 8% 0 0;
+  width: 400px;
   margin: auto;
+  text-align: center;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 .form {
-  position: relative;
-  text-align: center;
-  margin: 0 auto 100px;
+  max-width: 400px;
+  margin: 0 0 15px;
+  /* border: 1px solid red; */
   height: 200px;
-  max-width: 360px;
-  background-color: #fff;
+  margin: 0 0 15px;
+  position: relative;
+  padding: 45px;
   border-radius: 10px;
-  padding: 50px 50px;
+  position: relative;
+  top: 300px;
+  background-color: antiquewhite;
 }
 .form input {
-  width: 100%;
-  margin: 0px 0 15px;
+  margin-top: 10px;
   border-radius: 10px;
-  border: 0.5px solid rgb(126, 125, 125);
-  padding: 15px;
-  margin-left: -15px;
-  outline: 0;
-  text-align: center;
+  outline: none;
+  border: none;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 10px;
+  width: 100%;
 }
 body {
-  background-color: rgb(169, 247, 125);
-}
-.form input:first-child {
-  margin-top: 40px;
+  background-color: rgb(235, 198, 150);
 }
 .form button {
-  padding: 10px;
   margin-top: 20px;
+  padding: 10px;
   width: 200px;
-  background-color: rgb(169, 247, 125);
-  border: none;
   border-radius: 10px;
+  border: none;
+  background: rgb(252, 172, 53);
+}
+.form h1 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin-bottom: -5px;
 }

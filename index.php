@@ -12,12 +12,14 @@
 <body>
     <div class="login-page">
         <div class="form">
+            <form action="login.php" method="post">
+                <h1>Welcome</h1>
+                <input type="text" name="username" id="" placeholder="username">
+                <br>
 
-            <form class="login-form">
-                <input type="text" placeholder="username" name="uname" />
-                <input type="password" placeholder="password" name="password" />
-                <button type="submit">Login</button>
-                <!-- <p class="message">Not registered? <a href="#">Create an account</a></p> -->
+                <input type="text" name="password" id="" placeholder="password">
+                <br>
+                <button type="submit">login</button>
             </form>
         </div>
     </div>
