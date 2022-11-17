@@ -1,3 +1,7 @@
+<?php
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -14,10 +18,13 @@
         <div class="form">
             <form action="login.php" method="post">
                 <h1>Welcome</h1>
-                <input type="text" name="username" id="" placeholder="username">
+                <?php if (isset($_GET['error'])) { ?>
+                <p class="error"><?php echo $_GET['error']; ?></p>
+                <?php  } ?>
+                <input type="text" name="uname" id="" placeholder="username">
                 <br>
 
-                <input type="text" name="password" id="" placeholder="password">
+                <input type="password" name="password" id="" placeholder="password">
                 <br>
                 <button type="submit">login</button>
             </form>
